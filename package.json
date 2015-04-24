@@ -1,0 +1,32 @@
+{
+  "name": "kayamb",
+  "version": "0.1.0",
+  "description": "Kayamb - Listen to your music everywhere.",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp server",
+    "test": "gulp test",
+    "precommit-lint": "gulp lint"
+  },
+  "pre-commit": [
+    "precommit-lint"
+  ],
+  "devDependencies": {
+    "gulp-mocha": "^2.0.1",
+    "gulp-jslint": "^0.2.2"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bcrypt-nodejs" : "latest",
+    "connect-livereload": "0.5.3",
+    "express": "^4.11.0",
+    "express-err": "^0.1.2",
+    "gulp": "~3.8.11",
+    "gulp-express": "^0.3.0",
+    "mongoose" : "~3.8.1",
+    "morgan" : "~1.5.2",
+    "nconf": "^0.7.1",
+    "passport" : "~0.1.17",
+    "passport-local" : "~0.1.6",
+  }
+}

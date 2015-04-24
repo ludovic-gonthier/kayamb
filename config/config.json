@@ -1,0 +1,39 @@
+{
+  "server": {
+    "port": 9300,
+    "hostname": "localhost",
+    "protocol": "http",
+    "baseProtocol": "http",
+    "baseUrl": "localhost",
+    "basePort": 9300
+  },
+  "database": {
+    "user": "kayamb_admin",
+    "password": "__whatthefuckonthebiatchtoday__",
+    "hostname": "127.0.0.1",
+    "port": 27017,
+    "db": "kayamb"
+  },
+  "jslint" : {
+    "strict": true,
+    "node": true,
+
+    "indent": 2,
+    "trailing": true,
+    "white": false,
+
+    "debug": false,
+    "devel": false,
+
+    "newcap": true,
+    "noempty": true,
+    "nomen": true,
+    "unparam": true
+  },
+  "mocha" : {
+    "reporter" : "spec"
+  },
+  "modules" : [
+    "homepage"
+  ]
+}
